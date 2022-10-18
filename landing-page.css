@@ -66,10 +66,40 @@ ul {
     width: 100px;
 }
 
-
-
-
 .rightsection img{
     width: 450px;
     height: 250px;
+}
+
+.articlecontainer{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 60px 0 100px 0;
+    gap: 50px;
+}
+.articlecontainer h2{
+    color: #1f2937;
+    font-size: 36px;
+    font-weight: 900;
+}
+
+.articleitems{
+    display: flex;
+    justify-content: center;
+    width: 150px;
+    gap:100px;
+   
+}
+
+.item{
+    text-align: center;
+   
+}
+
+.item img{
+    width: 150px;
+    height: 150px;
+    border: #3882f6 solid 4px;
+    border-radius: 10%;
 }
