@@ -33,6 +33,43 @@ ul {
 #headerlogo {
     font-size: 24px;
     font-weight: bold;
-    color: white;
+    color: #f9faf8;
 }
 
+.sectioncontainer{
+    background-color: #1F2937;
+    color: #f9faf8;
+    padding: 100px 0px;
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    gap:200px;
+}
+
+.sectioncontainer h1{
+    font-size: 48px;
+    font-weight:900;
+}
+
+.leftsection{
+    width: 600px;
+    display: flex;  
+    flex-direction: column;
+    gap: 20px;
+}
+
+.leftsection button{
+    background-color: #3882f6;
+    color: white;
+    padding: 10px 20px;
+    border-radius: 10%;
+    width: 100px;
+}
+
+
+
+
+.rightsection img{
+    width: 450px;
+    height: 250px;
+}
