@@ -37,8 +37,8 @@ ul {
 }
 
 .sectioncontainer{
-    background-color: #1F2937;
-    color: #f9faf8;
+    background-color: #c6ebd5;
+    color: #252920;
     padding: 100px 0px;
     display: flex;
     justify-content: center;
@@ -55,20 +55,25 @@ ul {
     width: 600px;
     display: flex;  
     flex-direction: column;
-    gap: 20px;
+    gap: 10px;
+    justify-content: space-evenly;
 }
 
 .leftsection button{
     background-color: #3882f6;
     color: white;
     padding: 10px 20px;
-    border-radius: 10%;
-    width: 100px;
+    border-radius: 5%;
+    width: 150px;
+    font-weight: bold;
+    justify-self: flex-end;
+
 }
 
 .rightsection img{
     width: 450px;
     height: 250px;
+    border-radius: 5%;
 }
 
 .articlecontainer{
@@ -86,20 +91,21 @@ ul {
 
 .articleitems{
     display: flex;
-    justify-content: center;
-    width: 150px;
-    gap:100px;
+    justify-content: space-around;
+    flex-wrap: wrap;
+    gap:10px;
+    width: 900px;
    
 }
 
 .item{
     text-align: center;
-   
+    width: 150px;
 }
 
-.item img{
+.item img {
     width: 150px;
     height: 150px;
-    border: #3882f6 solid 4px;
+    border: #638ccd solid 4px;
     border-radius: 10%;
 }
