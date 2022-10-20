@@ -7,8 +7,10 @@
 
 .headersection{
     display: flex;  
-    justify-content: space-around;
+    justify-content: space-between;
     background-color: #1F2937;
+    padding: 0 200px;
+    flex-wrap: wrap;
 }
 
 ul {
@@ -39,11 +41,11 @@ ul {
 .sectioncontainer{
     background-color: #c6ebd5;
     color: #252920;
-    padding: 100px 0px;
+    padding: 100px 20px;
     display: flex;
-    justify-content: center;
+    justify-content: space-around;
+    gap: 40px;
     flex-wrap: wrap;
-    gap:200px;
 }
 
 .sectioncontainer h1{
@@ -74,11 +76,13 @@ ul {
     width: 450px;
     height: 250px;
     border-radius: 5%;
+  
 }
 
 .articlecontainer{
     display: flex;
     flex-direction: column;
+    flex-wrap: wrap;
     align-items: center;
     padding: 60px 0 100px 0;
     gap: 50px;
@@ -90,22 +94,98 @@ ul {
 }
 
 .articleitems{
-    display: flex;
-    justify-content: space-around;
+  display: flex;
+    justify-content: center;
+    width: 100%;
     flex-wrap: wrap;
-    gap:10px;
-    width: 900px;
-   
+    gap: 5rem;
 }
 
 .item{
-    text-align: center;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
     width: 150px;
+
+}
+
+.imgtext{
+    text-align: center;
 }
 
 .item img {
-    width: 150px;
+    width: 100%;
     height: 150px;
     border: #638ccd solid 4px;
     border-radius: 10%;
 }
+
+.quotecontainer{
+    background-color: #e5e7eb;
+    display: flex;
+    justify-content: center;
+}
+
+.actualquote{
+    width: 900px;
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    padding: 100px 0;
+    gap: 20px;
+}
+
+.quote{
+    font-size: 36px;
+    font-family: 'italic';
+    font-weight: 200;
+    color: #1f2937;
+}
+
+.author{
+    align-self: flex-end;
+    font-weight: bolder;
+}
+
+.bottomcontainer{
+    background-color: white;
+    display: flex;
+    justify-content: center;
+}
+
+.bottom{
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+    gap: 20px;
+    background-color: #3882f6;
+    margin: 100px 0;
+    width: 1200px;
+    padding: 40px;
+    border-radius: 5px;
+}
+
+.leftbottom{
+    color: #e5e7eb;
+}
+
+#leftbottom-text {
+    font-weight: 800;
+  }
+
+.rightbottom{
+    align-self: center;
+}
+
+.rightbottom button{
+    color: #e5e7eb;
+    border: #e5e7eb 2px solid;
+    font-weight: 800;
+    background-color: #3882f6;
+    padding: 5px 10px;
+    border-radius: 5px;
+    width: 100px;
+}
+
